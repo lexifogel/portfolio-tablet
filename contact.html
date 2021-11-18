@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/LF.png"/>
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/f9c76c7132.js"></script>
+
+  </head>
+
+  <body>
+
+    <a class = "skip" href="#content4">Skip to Main Content</a>
+
+    <header>
+      <nav>
+          <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href = "index.html">Home</a>
+              <a href = "about.html">About</a>
+              <a href = "work.html">Work</a>
+              <a href = "contact.html" class="current">Contact</a>
+            </div>
+            
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+
+      </nav>
+
+      <h1>Contact</h1>
+  </header> 
+
+    <main id="content4">
+      <br>
+      <h2>Connect with me!</h2><br>
+          <ul class="connect">
+            <li><a href = "../portfolio/resume 10:8:21.pdf" target="_blank">Resume</a></li>
+            <li><a href = "mailto: lfogel@umich.edu" target="_blank">Email</a></li>
+            <li><a href = "http://www.linkedin.com/in/lexi-fogel" target="_blank">LinkedIn</a></li> 
+          </ul>
+
+      <br><br>    
+      
+      <!-- <h2>Or leave a message:</h2><br> -->
+            <form>
+              <form action="https://formspree.io/f/xgerbpre" method="POST">
+                  <fieldset>  <!-- name is key, input is value -->
+                      <legend>Or leave a message:</legend>  <!-- style this-->
+                      <label for="name">Name</label>
+                      <input type="text" placeholder="Name" id="name" name="name" required>
+                      <br>
+                      <label for="email">Email</label>
+                      <input type="email" placeholder="Email" id="email" name="email" required>
+                      <br><br>
+                      <!-- <label for="date">Date</label>
+                      <input id="date" type="date" placeholder="Date" name="date">
+                      <br> -->
+                      <label for="message">Message</label>
+                      <textarea placeholder="Message" id="message" name="msg" required></textarea>
+                      <br><br>
+                      <label for="submit">Submit</label>
+                      <input type="submit" value="Submit">
+                  </fieldset>
+              </form>
+
+      <br><br><br>
+
+    </main>
+
+ 
+    <footer>
+		<p>Lexi Fogel &copy; 2021</p>
+	</footer>
+
+  <script src="js/javascript.js"></script>
+
+  </body>
+  
+  </html>
+
+  <!-- phone regex: \d{3}[\-]\d{3}[\-]\d{4}  -->
