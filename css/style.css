@@ -91,8 +91,7 @@ a.connect:visited {
 
 /* skip to main content */
 /* stolen from hw 5 ! */
-.skip a {
-    background: white;
+a.skip {
     left: 0;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -105,7 +104,7 @@ a.connect:visited {
 }   
 
 /* Requirement 3b code here*/
-.skip a:focus {
+a.skip:focus {
     position: static;
     top: 0px;
     visibility: visible;
@@ -333,11 +332,10 @@ footer {
 
 #TMD-logo {
     height: 1.5em;
-    /* margin-left: .5em;
-    margin-bottom: 1em; */
     display: block;
     margin: auto;
     padding-bottom: 1em;
+    /* why is the top of this image cut off ?? */
 }
 
 #playa-logo {
