@@ -158,8 +158,11 @@ a.connect:visited {
 .flipcard-back {
 	transform: rotateY(180deg);
     text-align: center;
-    color: #215583; /* can't see text?? */
     background-color: #eefbfb;
+}
+
+.flipcard-back p {
+    color: #215583;
     vertical-align: middle; /* doesn't work */
 }
 /* end flipcard */ 
@@ -177,7 +180,6 @@ nav {
 /* Links inside the navbar */
 nav a {
     font-size: 16px;
-    color: #eefbfb;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -186,9 +188,8 @@ nav li {
     display: inline;
 }
 
-nav a {
-    color: #5da2d5;
-    text-decoration: none;
+#mySidebar a {
+    background-color: #eefbfb;
 }
 /* end nav */
 
@@ -423,9 +424,9 @@ textarea{
 }
 
 input[type=submit] {
-    background-color: #5da2d5;
+    background-color: #eefbfb;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: #215583;
     padding: 14px 20px;
     margin: auto; /* center ?? */
     border: none;
